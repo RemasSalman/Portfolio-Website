@@ -43,11 +43,11 @@ i {
 nav {
     position: fixed;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: fit-content;
     line-height: 90px;
-    padding-inline: 9vw;
+    padding-inline: 19vw;
     transition: .3s;
     z-index: 100;
 }
@@ -124,8 +124,8 @@ nav {
 .featured-box {
     position: relative;
     display: flex;
-    height: 80vh;
-    min-height: 300px;
+    height: 100vh;
+    min-height: 700px;
 }
 
 .featured-text {
@@ -219,7 +219,7 @@ nav {
 
 
 .section {
-    padding-block: 8em;
+    padding-block: 5em;
 }
 
 .row {
